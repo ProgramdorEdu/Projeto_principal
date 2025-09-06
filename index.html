@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Titulo h1 -->
+    <section>
+        <h1>
+            Pagina de cadastro de novos pacientes
+        </h1>
+    </section>
+
+    <!-- Orientação para o cadastro -->
+     <section>
+        <h2>
+            Preencha a tabela abaixo com o maximo de informações possiveis
+        </h2>
+     </section>
+
+     <!-- Estrutura inicial do cadastro -->
+      <section>
+        <form>
+            <fieldset>
+                <legend>Dados do paciente</legend>
+                    <label for="name">Nome do paciente</label>
+                    <input type="text" name="name" id="name" required>
+            
+                <label for="age">Data de nascimento</label>
+                <input type="date" name="age" id="age">
+
+                <label for="comorbidades">Comorbidades</label>
+                <input type="text" name="comorbidades" id="comorbidades">
+            </fieldset>
+            <fieldset>
+                <legend>Contato do responsavel</legend>
+                <label for="responsavel">Nome do responsavel</label>
+                <input type="text" name="responsavel" id="responsavel" required>
+
+                <label for="tel">Telefone para contato</label>
+                <input type="tel" name="telefone" id="telefone" required>
+            </fieldset>
+
+            <fieldset>
+  <legend>Informações de medicamentos</legend>
+
+  <table id="tabelaMedicamentos" border="2">
+    <thead>
+      <tr>
+        <th>Medicação</th>
+        <th>Horário</th>
+        <th>Período</th>
+        <th>Ações</th> <!-- futura coluna para remover linha -->
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Linha modelo inicial -->
+      <tr>
+        <td><input type="text" name="med1" placeholder="Nome do medicamento"></td>
+        <td><input type="time" name="hora_med1"></td>
+        <td>
+          <select name="periodo_med1">
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+            <option value="madrugada">Madrugada</option>
+          </select>
+        </td>
+        <td>
+          <!-- Esse botão não faz nada por enquanto -->
+          <button type="button">Remover</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Esse botão também não faz nada ainda -->
+  <button type="button">Adicionar medicamento</button>
+  <button type="submit">Finalizar cadastro</button>
+</fieldset>
+
+        </form>
+      </section>
+      
+</body>
+</html>
