@@ -36,4 +36,24 @@ Ele será constantemente atualizado conforme avanço nos estudos.
 
 ## 📈 Próximos Passos
 - [ ] Melhorar o design com CSS avançado (cores, grid, flexbox).  
-- [ ] Implementar tabela dinâmica com JavaScript (ad
+- [ ] Implementar tabela dinâmica com JavaScript (adicionar/remover medicamentos).  
+- [ ] Validar dados do formulário antes de enviar.  
+- [ ] Explorar armazenamento de dados no navegador (localStorage).  
+- [ ] Criar uma versão mais profissional do layout.  
+
+---
+
+## 📖 Aprendizados até agora
+- Estruturar formulários com `fieldset`, `legend`, `label` e `input`.  
+- Usar diferentes tipos de `input` (`text`, `date`, `tel`, `time`, `select`).  
+- Criar tabelas semânticas com `thead`, `tbody` e `tr`.  
+- Aplicar estilos básicos com CSS (`margin`, `padding`, `flexbox`, `cores e tipografia`).  
+- Preparar a página para crescer junto com meus estudos.  
+
+---
+
+## 👨‍💻 Autor
+**Luiz Eduardo de Sousa Moraes**  
+Estudante de Análise e Desenvolvimento de Sistemas | Futuro desenvolvedor Front-End  
+
+---
